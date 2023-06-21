@@ -1,0 +1,41 @@
+PODS:
+  - MapboxCommon (23.6.0)
+  - MapboxCoreMaps (10.14.0):
+    - MapboxCommon (~> 23.6)
+  - MapboxMaps (10.14.0):
+    - MapboxCommon (= 23.6.0)
+    - MapboxCoreMaps (= 10.14.0)
+    - MapboxMobileEvents (= 1.0.10)
+    - Turf (~> 2.0)
+  - MapboxMobileEvents (1.0.10)
+  - shared (1.0):
+    - MapboxMaps (~> 10.14.0)
+  - Turf (2.6.1)
+
+DEPENDENCIES:
+  - MapboxMaps (= 10.14.0)
+  - shared (from `/Users/panosstylianou/AndroidStudioProjects/TestKMM/shared`)
+
+SPEC REPOS:
+  trunk:
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxMaps
+    - MapboxMobileEvents
+    - Turf
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "/Users/panosstylianou/AndroidStudioProjects/TestKMM/shared"
+
+SPEC CHECKSUMS:
+  MapboxCommon: 4a0251dd470ee37e7fadda8e285c01921a5e1eb0
+  MapboxCoreMaps: eb07203bbb0b1509395db5ab89cd3ad6c2e3c04c
+  MapboxMaps: af50ec61a7eb3b032c3f7962c6bd671d93d2a209
+  MapboxMobileEvents: de50b3a4de180dd129c326e09cd12c8adaaa46d6
+  shared: 031dace1ba6aa1c27c0df6e2b8cebdeb1968a2b0
+  Turf: 469ce2c3d22e5e8e4818d5a3b254699a5c89efa4
+
+PODFILE CHECKSUM: c722481469260e1793551bcf05712c26ee513555
+
+COCOAPODS: 1.12.1
